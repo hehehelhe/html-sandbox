@@ -7,31 +7,25 @@
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/main.css">
-    <!--
-    This loads the jQuery JavaScript library. The two forward slashes here are not a typo.
-    See: http://stackoverflow.com/questions/9646407/two-forward-slashes-in-a-url-src-href-attribute
-    -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <!--
-    This loads the "Lightbox" jQuery plugin.  To use this all we need to use
-    is add the "data-lightbox" attribute to an image tag.
-    See: http://lokeshdhakar.com/projects/lightbox2/
-    -->
-    <script src="javascript/lightbox.js"></script>
+
+<script src="javascript/jquery-1.11.0.min.js"></script>
+  <script src="javascript/lightbox.min.js"></script>
+
+
   </head>
   <body>
+  <div id="background">
     <header>
       <nav class="content">
-        <h1>
-          <a href="index.html">HTML Sandbox</a>
+        <h1 class="animated zoomIn">
+          <a href="index.html">Ruihao's Website</a>
         </h1>
         <ul>
           <li>
             <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="deploy.html">Deploy</a>
           </li>
           <li>
             <a href="about.html">About Me</a>
@@ -43,67 +37,34 @@
       </nav>
     </header>
     <article id="page" class="content">
-      <h2>Simple Image Gallery</h2>
-      <p>
-      This is an example of a simple image gallery.  You could adapt this for use
-      as a photo portfolio, for example.  Pay attention to how margin, padding, and width
-      interact to procude the "right" spacing.
+      <h2 class="Word-background">My photoshop assignment</h2>
+      <p class="Word-background">
+      All these is my past photoshop assignments.
       </p>
-      <p>
-      We're using the <a href="www.lokeshdhakar.com/projects/lightbox2/" target="_blank">Lightbox jQuery plugin</a> to produce the popup.  This plugin was (and is) so popular that many people now call this style of photo-based popup "a lightbox."  If you're curious, you can <a href="http://en.wikipedia.org/wiki/Lightbox_(JavaScript)" target="_blank">read about this plugin's history on Wikipedia</a>.
-      </p>
-      <ul class="gallery">
+          <ul class="gallery">
         <li>
-          <a data-lightbox="image-1" href="img/photos/photo-1-800x800.jpg">
-            <img src="img/photos/photo-1-200x200.jpg">
+          <a data-lightbox="image-1" href="img/photos/GM-1900.jpg" data-title="Gundam, cool stuff~~~">
+            <img src="img/photos/GM-500.jpg">
           </a>
         </li>
         <li>
-          <a data-lightbox="image-1" href="img/photos/photo-2-800x800.jpg">
-            <img src="img/photos/photo-2-200x200.jpg">
+          <a data-lightbox="image-1" href="img/photos/GM2-1920.jpg" data-title="The draw to history assignment, this is a very =fun assignment, because using the effevt can do some very cool effects.">
+            <img src="img/photos/GM2-500.jpg">
           </a>
         </li>
         <li>
-          <a data-lightbox="image-1" href="img/photos/photo-3-800x800.jpg">
-            <img src="img/photos/photo-3-200x200.jpg">
+          <a data-lightbox="image-1" href="img/photos/GM3-575.jpg" data-title="This assignment is the combination of around 10+ images.">
+            <img src="img/photos/GM3-500.jpg">
           </a>
         </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-4-800x800.jpg">
-            <img src="img/photos/photo-4-200x200.jpg">
-          </a>
-        </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-5-800x800.jpg">
-            <img src="img/photos/photo-5-200x200.jpg">
-          </a>
-        </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-6-800x800.jpg">
-            <img src="img/photos/photo-6-200x200.jpg">
-          </a>
-        </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-7-800x800.jpg">
-            <img src="img/photos/photo-7-200x200.jpg">
-          </a>
-        </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-8-800x800.jpg">
-            <img src="img/photos/photo-8-200x200.jpg">
-          </a>
-        </li>
-        <li>
-          <a data-lightbox="image-1" href="img/photos/photo-9-800x800.jpg">
-            <img src="img/photos/photo-9-200x200.jpg">
-          </a>
-        </li>
+        
       </ul>
     </article>
     <footer>
       <div class="content">
-        <p>Hello, world!  What a nice footer.</p>
+        <p>This website is by Ruihao Zhu. And this is just a normal footer.</p>
       </div>
     </footer>
+    </div>
   </body>
 </html>

@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+#background{
+  background-image: url("http://vignette2.wikia.nocookie.net/gintama/images/c/c4/GINTAMA'_-_Ending_3/revision/20150219100119");
+  background-repeat: repeat;
+}
+
 body {
   color: #333333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -30,7 +36,7 @@ footer p {
 
 header {
   background: #f0f0f0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #0066cc;
   height: 60px;
   position: relative;
   width: 100%;
@@ -97,8 +103,8 @@ header nav a, header nav a:visited {
 .gallery li img {
   border-radius: 2px;
   vertical-align: top;
-  height: 200px;
-  width: 200px;
+  
+  
 }
 
 .gallery li img:hover {
@@ -109,4 +115,10 @@ header nav a, header nav a:visited {
 }
 
 .profile-content {
+}
+
+.Word-background{
+  background-color: #ffffff;
+  border: #333333 solid 2px;
+  text-align: center;
 }
