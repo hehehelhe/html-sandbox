@@ -5,11 +5,13 @@
 #background{
   background-image: url("http://vignette2.wikia.nocookie.net/gintama/images/c/c4/GINTAMA'_-_Ending_3/revision/20150219100119");
   background-repeat: repeat;
+  height: 100%;
 }
 
 body {
   color: #333333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
 }
 
 a, a:active, a:visited {
