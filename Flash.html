@@ -5,14 +5,15 @@
     <title>HTML Sandbox</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="javascript/lightbox.js"></script>
-  </head>
-  <body>
+<script src="javascript/jquery-1.11.0.min.js"></script>
+  <script src="javascript/lightbox.min.js"></script>
+</head>
+<body>
   <div id="background">
     <header>
       <nav class="content">
@@ -23,27 +24,42 @@
           <li>
             <a href="index.html">Home</a>
           </li>
-          <li class="active">
+          <li>
             <a href="about.html">About Me</a>
           </li>
           <li>
             <a href="gallery.html">Gallery</a>
           </li>
-          <li>
+          <li class="active">
             <a href="Flash.html">Flash</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="content">
-    <h1 class="Word-background">This is who I am</h1>
-    <p class="Word-background"> Four years ago, I immigrated from China to the United States. Now I am a sophmore in Burton high school. I create this webiste for my friends to better know me. And this is one of my assignment for my AME boardcast class. In this website, i will show you some of my creative work. </p>
-    </section>
+    <article id="page" class="content">
+    <h2 class="Word-background">My flash assignments</h2>
+    <ul class="flash">
+      <li>
+      <iframe src="flash/ball.swf"></iframe>
+      </li>
+     
+      
+      <li>ball,bouncing, and this is my first time use flash.
+      </li>
+      <li>
+        <iframe src="flash/name.swf"></iframe>
+      </li> 
+      <li>
+      this time added rotation, and sound into it.
+      </li>
+
+    </ul>
+    </article>
     <footer>
       <div class="content">
         <p>This website is by Ruihao Zhu. And this is just a normal footer.</p>
       </div>
-    </footer>
     </div>
-  </body>
-</html>
+    </footer>
+    </body>
+    </html>

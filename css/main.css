@@ -123,3 +123,18 @@ header nav a, header nav a:visited {
   border: #333333 solid 2px;
   text-align: center;
 }
+
+.flash {
+  margin: 0;
+  padding: 0;
+}
+
+.flash li {
+  background-color: #f0f0f0;
+  border: 1px solid #333333;
+  border-radius: 2px;
+  float: left;
+  list-style-type: none;
+  padding: 5px;
+  margin: 16px;
+}
